@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Curriculum:</strong>
+  <%= @camp.curriculum_id %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @camp.location_id %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @camp.cost %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @camp.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @camp.end_date %>
+</p>
+
+<p>
+  <strong>Time slot:</strong>
+  <%= @camp.time_slot %>
+</p>
+
+<p>
+  <strong>Max students:</strong>
+  <%= @camp.max_students %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @camp.active %>
+</p>
+
+<%= link_to 'Edit', edit_camp_path(@camp) %> |
+<%= link_to 'Back', camps_path %>

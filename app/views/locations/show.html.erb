@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @location.name %>
+</p>
+
+<p>
+  <strong>Street 1:</strong>
+  <%= @location.street_1 %>
+</p>
+
+<p>
+  <strong>Street 2:</strong>
+  <%= @location.street_2 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @location.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @location.state %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @location.zip %>
+</p>
+
+<p>
+  <strong>Max capacity:</strong>
+  <%= @location.max_capacity %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @location.active %>
+</p>
+
+<%= link_to 'Edit', edit_location_path(@location) %> |
+<%= link_to 'Back', locations_path %>

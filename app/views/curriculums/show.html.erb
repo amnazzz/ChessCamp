@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @curriculum.name %>
+</p>
+
+<p>
+  <strong>Min rating:</strong>
+  <%= @curriculum.min_rating %>
+</p>
+
+<p>
+  <strong>Max rating:</strong>
+  <%= @curriculum.max_rating %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @curriculum.description %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @curriculum.active %>
+</p>
+
+<%= link_to 'Edit', edit_curriculum_path(@curriculum) %> |
+<%= link_to 'Back', curriculums_path %>

@@ -1,0 +1,2 @@
+module CampInstructorsHelper
+end
